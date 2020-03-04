@@ -144,6 +144,21 @@ describe('PUT /cars', () => {
         expect(carUpdated._id).toBe(String(carToUpdate._id));
         expect(carUpdated.make).toBe('Not a Cadilac');
     })
+
+    it('Should validate body with at least one attribute to update.', async () => {
+        const carToUpdate = new CarModel(carSample);
+        await carToUpdate.save();
+
+        const response = await request.put(`/api/cars/${carToUpdate._id}`)
+            .send({});
+            
+        const error = response.body.message;
+
+        expect(response.status).toBe(400);
+        expect(error).toEqual(
+            expect.stringContaining('must have at least 1 key')
+        );
+    })
 })
 
 describe('DELETE /api/cars', () => {

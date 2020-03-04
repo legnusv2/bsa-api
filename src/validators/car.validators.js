@@ -25,7 +25,7 @@ const updateCarValidator = Joi.object({
         .max(currentYear),
     color: Joi.string(),
     vin: Joi.string(),
-});
+}).min(1);
 
 const searchQueryValidator = Joi.object({
     make: Joi.string(),
