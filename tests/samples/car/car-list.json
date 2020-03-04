@@ -1,0 +1,74 @@
+{
+    "cars": [
+        {
+          "make": "Cadillac",
+          "model": "Seville",
+          "year": 2003,
+          "color": "Khaki",
+          "vin": "3D73M4HL3BG659234"
+        },
+        {
+          "make": "Mercedes-Benz",
+          "model": "400SE",
+          "year": 1992,
+          "color": "Crimson",
+          "vin": "WAUSGAFB1AN163793"
+        },
+        {
+          "make": "Dodge",
+          "model": "Caravan",
+          "year": 1999,
+          "color": "Crimson",
+          "vin": "3GYT4MEF7DG406293"
+        },
+        {
+          "make": "Land Rover",
+          "model": "Defender",
+          "year": 1995,
+          "color": "Puce",
+          "vin": "4JGDF2EE6FA552410"
+        },
+        {
+          "make": "Isuzu",
+          "model": "i-Series",
+          "year": 2008,
+          "color": "Turquoise",
+          "vin": "3D73Y3CL2BG943329"
+        },
+        {
+          "make": "Infiniti",
+          "model": "FX",
+          "year": 2009,
+          "color": "Crimson",
+          "vin": "1D7RB1CT3AS444658"
+        },
+        {
+          "make": "GMC",
+          "model": "Sierra 2500",
+          "year": 2001,
+          "color": "Fuscia",
+          "vin": "WBABD33404J333020"
+        },
+        {
+          "make": "GMC",
+          "model": "Yukon XL 1500",
+          "year": 2005,
+          "color": "Green",
+          "vin": "5UXWX7C59BL364178"
+        },
+        {
+          "make": "Dodge",
+          "model": "Ram Van B250",
+          "year": 1992,
+          "color": "Khaki",
+          "vin": "WDDEJ7KBXBA940562"
+        },
+        {
+          "make": "Nissan",
+          "model": "Maxima",
+          "year": 2012,
+          "color": "Purple",
+          "vin": "WDDGF4HB2DR866493"
+        }
+      ]
+}
