@@ -13,10 +13,7 @@ const request = supertest(app);
 const inMemoryDB = new MongoMemoryServer();
 
 beforeAll(async (done) => {
-    process.env.DB_HOST = 'localhost';
-    process.env.DB_PORT = await inMemoryDB.getPort();
-    process.env.DB_NAME = await inMemoryDB.getDbName();
-
+    process.env.DB_URI = await inMemoryDB.getConnectionString();
     await mongodb.connect();
     done();
 })
